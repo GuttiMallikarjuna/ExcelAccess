@@ -1,0 +1,38 @@
+[
+    {
+     "userid": 101,
+     "username": "eranna",
+     "mobile": 8956892536,
+     "address": "kurnool",
+     "state": "Ap",
+     "pincode": 523157,
+     "email": "eranna@gmail.com"
+    },
+    {
+     "userid": 102,
+     "username": "ramu",
+     "mobile": 9856892537,
+     "address": "Prakasam",
+     "state": "Ap",
+     "pincode": 523167,
+     "email": "ramu@gmail.com"
+    },
+    {
+     "userid": 103,
+     "username": "kiran",
+     "mobile": 6256892578,
+     "address": "hyderabad",
+     "state": "Ts",
+     "pincode": 580008,
+     "email": "kiran@gmail.com"
+    },
+    {
+     "userid": 104,
+     "username": "rajesh",
+     "mobile": 7456892590,
+     "address": "kammam",
+     "state": "Ts",
+     "pincode": 580006,
+     "email": "rajesh@gmail.com"
+    }
+   ]

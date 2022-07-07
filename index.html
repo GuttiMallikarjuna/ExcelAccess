@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"></script> -->
+</head>
+<body class="container-fluid">
+   <!--  <div>
+        <h1>Upload an excel file to convert into JSON</h1>
+            
+            <input type="file" id="file_upload" />
+            <button onclick="upload()">Upload</button>  <button onclick="downloadclick()"  class="btn btn-danger">download</button>
+            <br><br>
+           
+            <textarea id="json-result" style="display:none;height:500px;width:350px;"></textarea> 
+    </div> -->
+
+    <div>
+        <h1>Registration Form</h1>
+        <form id="form1">
+           
+            <label>User-Id</label> 
+            <div id="userdiv" class="input-group w-25">
+            <input class="form-control " type="text" id="userid" name="userid" placeholder="Enter userid"><span ><button onclick="GetData()"  class="btn btn-info " type="button">Get data</button></span>
+            </div>
+           
+            <div class="input-group w-25  mt-3">
+                <label class="input-group-text">User-Name</label>
+            <input class="form-control  input-group-text" type="text" id="username"  name="username" placeholder="Enter username">
+            </div>
+            <div class="input-group w-25  mt-3">
+            <label class="input-group-text">Mobile</label>
+            <input class="form-control w-25 input-group-text" type="text" name="mobile" id="mobile" placeholder="Enter mobile">
+            </div>
+            <div class="input-group w-25  mt-3">
+            <label class="input-group-text">Pin-Code</label>
+            <input class="form-control w-25 input-group-text" type="text" name="pincode" id="pincode" placeholder="Enter pincode">
+            </div>
+            <div class="input-group w-25  mt-3">
+                <label class="input-group-text">State</label>
+            <input class="form-control w-25 input-group-text" type="text" name="state" id="state" placeholder="Enter state">
+            </div>
+            <div class="input-group w-25  mt-3">
+                <label class="input-group-text ">Email</label>
+            <input class="form-control w-25 input-group-text" type="email" name="email" id="email" placeholder="Enter email">
+            </div>
+            
+            <div class="input-group w-25  mt-3">
+                <label class="input-group-text ">Address</label>
+            <input class="form-control w-25 input-group-text" type="text" name="address" id="address" placeholder="Enter address">
+            </div>
+            <button class="btn btn-danger mt-3 w-25">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
